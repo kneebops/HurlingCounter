@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Hurling Counter</string>
+    <string name="point">Point</string>
+    <string name="goal">goal</string>
+    <string name="kilkenny">Kilkenny</string>
+    <string name="galway">Galway</string>
+    <string name="initialScore">0</string>
+    <string name="reset">reset</string>
+</resources>

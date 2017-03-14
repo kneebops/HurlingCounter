@@ -1,0 +1,59 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/accentTan</item>
+        <item name="colorButtonNormal">@color/accentTan</item>
+    </style>
+
+    <style name="TeamNameText">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/edgePadding</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="ScoreText">
+        <item name="android:textSize">56sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <style name="VerticalLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="CrestStyle">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="PointButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/point</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+    <style name="GoalButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/goal</item>
+        <item name="android:textColor">#FFFFFF</item>
+
+    </style>
+
+
+</resources>
+
